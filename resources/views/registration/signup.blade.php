@@ -16,11 +16,10 @@
                     To Continue
                 </h1>
             </div>
-            <button
-                class="arrow-btn btn text-white border border-3 arrow-icon bg-transparent rounded-circle mt-5 d-none d-md-block">
+            <button class="arrow-btn btn text-white border border-3 arrow-icon bg-transparent rounded-circle mt-5 d-none d-md-block">
                 <i class="fa-solid fa-angle-down fa-xs"></i>
             </button>
-            
+
 
         </div>
         <div class="imagem-2 ms-auto">

@@ -21,7 +21,7 @@
                     <i class="fa-solid fa-angle-down fa-xs"></i>
                 </button>
             </a>
-            
+
 
         </div>
         <div class="imagem-2 ms-auto">
@@ -48,18 +48,18 @@
 <section class="banner-white d-flex justify-content-center align-items-center mt-md-0">
     <div class="container row">
         <div class="col-md-4">
-            <h5 class="text-secondary fw-bold"  data-aos="fade-up">
+            <h5 class="text-secondary fw-bold" data-aos="fade-up">
                 -- Services of Etax
             </h5>
-            <h1 class="heading fw-bold lh-base text-break" id="slider-heading"  data-aos="fade-up">
+            <h1 class="heading fw-bold lh-base text-break" id="slider-heading" data-aos="fade-up">
                 Why choose us? Look at our services and decide for yourself.
             </h1>
-            <p class="pt-5 d-none d-md-block"  data-aos="fade-up">
+            <p class="pt-5 d-none d-md-block" data-aos="fade-up">
                 Read this to learn more &nbsp;<i class="fa-solid fa-arrow-right-long fa-lg"></i>
             </p>
         </div>
         <div class="offset-md-1 col-md-7">
-            <div class="row"  data-aos="fade-up">
+            <div class="row" data-aos="fade-up">
                 <div class="col-2 icon-img">
                     <img src="../svg/icon1.svg" alt="">
                 </div>
@@ -71,33 +71,42 @@
                 </div>
                 <div class="col-2">
                     @auth
-                        <a href="/registration/incometax" class="btn btn-primary text-white rounded-circle">
-                            <i class=" fa-solid fa-angle-right fa-xs"></i>
-                        </a>
+                    <a href="/registration/incometax" class="btn btn-primary text-white rounded-circle">
+                        <i class=" fa-solid fa-angle-right fa-xs"></i>
+                    </a>
                     @else
-                        <a href="/login" class="btn btn-primary text-white rounded-circle">
-                            <i class=" fa-solid fa-angle-right fa-xs"></i>
-                        </a>
+                    <a href="/login" class="btn btn-primary text-white rounded-circle">
+                        <i class=" fa-solid fa-angle-right fa-xs"></i>
+                    </a>
                     @endauth
                 </div>
             </div>
-            <div class="row"  data-aos="fade-up">
+            <div class="row" data-aos="fade-up">
                 <div class="col-2 icon-img">
                     <img src="../svg/icon1.svg" alt="">
                 </div>
                 <div class="offset-1 offset-md-0 col-7 col-md-8">
+
                     <h4 class="fw-bold">Sales Tax Filing</h4>
                     <p>
                         The easiest way to file tax on your sale products.
                     </p>
                 </div>
                 <div class="col-2">
-                    <a href="/registration/incometax" class="btn btn-primary text-white rounded-circle">
+                    @auth
+
+                    <a href="./registration/incometax" class="btn btn-primary text-white btnRound rounded-circle ">
                         <i class=" fa-solid fa-angle-right fa-xs"></i>
                     </a>
+                    @else
+                    <a href="/login" class="btn btn-primary text-white rounded-circle">
+                        <i class=" fa-solid fa-angle-right fa-xs"></i>
+                    </a>
+                    @endauth
+
                 </div>
             </div>
-            <div class="row"  data-aos="fade-up">
+            <div class="row" data-aos="fade-up">
                 <div class="col-2 icon-img">
                     <img src="../svg/icon1.svg" alt="">
                 </div>
@@ -108,12 +117,18 @@
                     </p>
                 </div>
                 <div class="col-2">
+                    @auth
                     <a href="/registration/incometax" class="btn btn-primary text-white rounded-circle">
                         <i class=" fa-solid fa-angle-right fa-xs"></i>
                     </a>
+                    @else
+                    <a href="/login" class="btn btn-primary text-white rounded-circle">
+                        <i class=" fa-solid fa-angle-right fa-xs"></i>
+                    </a>
+                    @endauth
                 </div>
             </div>
-            <div class="row"  data-aos="fade-up">
+            <div class="row" data-aos="fade-up">
                 <div class="col-2 icon-img">
                     <img src="../svg/icon1.svg" alt="">
                 </div>
@@ -124,9 +139,17 @@
                     </p>
                 </div>
                 <div class="col-2">
+                    @auth
+
                     <a href="/registration/incometax" class="btn btn-primary text-white rounded-circle">
                         <i class=" fa-solid fa-angle-right fa-xs"></i>
                     </a>
+                    @else
+
+                    <a href="/login" class="btn btn-primary text-white rounded-circle">
+                        <i class=" fa-solid fa-angle-right fa-xs"></i>
+                    </a>
+                    @endauth
                 </div>
             </div>
         </div>

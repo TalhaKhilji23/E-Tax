@@ -21,7 +21,7 @@
                     <i class="fa-solid fa-angle-down fa-xs"></i>
                 </button>
             </a>
-            
+
 
         </div>
         <div class="imagem-2 ms-auto">
@@ -37,15 +37,15 @@
             </h1>
         </div>
         @if (session()->has('error'))
-            <div id="alert" class="alert alert-warning" role="alert">
-                {{ session('error') }}
-            </div>
+        <div id="alert" class="alert alert-warning" role="alert">
+            {{ session('error') }}
+        </div>
         @endif
         <div class="col-md-7 mt-5">
             <form method="post">
                 @csrf
                 <div class="form-group d-flex flex-column pb-5 position-relative aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="1000">
-                    <label class="contact-label fs-5 fw-bold" for="email">Email</label>
+                    <label class="contact-label fs-5 fw-bold bg-none" for="email">Email</label>
                     <input type="email" class="contact-input" id="email" name="email">
                 </div>
                 <div class="form-group d-flex flex-column pb-5 position-relative aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="1000">
